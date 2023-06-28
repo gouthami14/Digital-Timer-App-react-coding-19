@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.digital-timer-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+}
+.digital-timer-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.img {
+  height: 500px;
+  width: 500px;
+}
