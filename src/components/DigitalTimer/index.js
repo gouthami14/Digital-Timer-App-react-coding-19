@@ -31,7 +31,7 @@ class DigitalTimer extends Component {
     this.setState(prevState => ({
       timerLimitInMinutes: prevState.timerLimitInMinutes + 1,
     }))
-
+  }
   renderTimeLimitController = () => {
       const {timerLimitInMinutes, timeElapsedInSeconds} = this.state
       const isButtonsDisabled = timeElapsedInSeconds > 0
